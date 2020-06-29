@@ -1,0 +1,238 @@
+.ant-notification{
+  top:72%!important;
+  .ant-notification-notice{
+    padding: 16px 20px!important;
+    .newAlarm{
+      display: flex;
+      flex-direction: column;
+      .newImg{
+        width: 100%;
+        height: 43vh;
+      }
+      .newContext{
+        padding: 2% 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+}
+.ant-badge{
+  font-size: 28px;
+}
+.ant-badge-multiple-words{
+  padding: 0 4px;
+}
+.popoverMoal{
+  .popoverMoal-con{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span{
+      display: inline-block;
+      width: 32%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+.policeList-top{
+  width: 352px;
+  height: 410px;
+  .police-name{
+    width: 100%;
+    color:rgba(102,102,102,1);
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ECECEC;
+  }
+  .policeCont{
+    width: 100%;
+    height: 338px;
+    overflow-y: scroll;
+    .popoverEmpty{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .ant-empty{
+        margin: 0 auto!important;
+      }
+    }
+    li{
+      display: flex;
+      height: 70px;
+      align-items: center;
+      cursor: pointer;
+      border-bottom: 1px solid #ececec;
+      .popover-img{
+        width:80px;
+        height: 45px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .popover-content{
+        width: 250px;
+        height: 75%;
+        padding-left: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #CCCCCC;
+        .context-name{
+          color: #333333;
+        }
+        .context{
+          color: #8590A6;
+        }
+        .nopass{
+          color: #CCCCCC;
+        }
+        p:nth-child(1){
+          display: flex;
+          align-content: center;
+          font-size: 14px;
+          width: 250px;
+          .context-num:nth-child(2){
+            padding-left:4%;
+          }
+          .context-num{
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+        p:nth-child(2){
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .popover-bottom{
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ECECEC;
+    margin-top: 10px;
+    color:rgba(102,102,102,1);
+    font-size: 14px;
+    span{
+      cursor: pointer;
+    }
+    span:hover{
+      color: #76839b;
+    }
+  }
+}
+.backout{
+  padding: 0 8px;
+  p{
+    padding:8px 0;
+    cursor: pointer;
+  }
+  p:hover{
+    color: #0b5eec;
+  }
+}
+.LayerHeader{
+  font-family:'Microsoft YaHei';
+  background: #ffffff;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  color: #3661FF;
+  justify-content: space-between;
+  padding: 0 1%;
+  .ant-select-selection{
+    background: #213C95;
+    border: none;
+    color: #fff;
+  }
+  .ant-select-arrow{
+    color: #fff;
+  }
+  .headerLeft{
+    display: flex;
+    align-items: center;
+    .logo{
+      width: 155px;
+      height: 44px;
+      background: url("../../../style/imgs/logoCricle.png");
+      background-size: 100% 100%;
+    }
+    .secant{
+      width: 2px;
+      height: 32px;
+      background: #132356;
+      margin: 0 22px 0 11px;
+    }
+    .logo-title{
+      font-size: 27px;
+      letter-spacing:2px;//字体间隙
+    }
+  }
+  .headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    .manual{
+      font-size: 26px;
+      position: absolute;
+      right: 175%;
+      top:30%;
+      cursor: pointer;
+      color: #707D93;
+    }
+    .alarmNum{
+      position: absolute;
+      right: 135%;
+      top:30%;
+      .alarmfont{
+        color: #f5222d;
+      }
+      .alarMargin{
+        margin-right: 20px;
+      }
+      .equImg6 {
+        display: inline-block;
+        width: 27px;
+        height: 30px;
+        background: url("../../../style/ztt/imgs/ring.png") no-repeat;
+        background-size: 100% 100%;
+        cursor: pointer;
+      }
+      .equImg7{
+        display: inline-block;
+        width: 27px;
+        height: 30px;
+        background: url("../../../style/ztt/imgs/mute.png") no-repeat;
+        background-size: 100% 100%;
+        cursor: pointer;
+      }
+    }
+    .alarmRight{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .signout{
+        padding-left: 20px;
+        cursor: pointer;
+        color: #000000;
+      }
+      .userIcon{
+        margin-right: 13px;
+      }
+      .userName{
+        color: #333333;
+      }
+    }
+  }
+}

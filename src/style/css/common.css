@@ -1,0 +1,152 @@
+.ajax-loading {
+  display: none;
+}
+.ajax-loading .loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 40px;
+  height: 80px;
+  line-height: 80px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 6px;
+  text-align: center;
+  z-index: 9999;
+  font-size: 16px;
+  color: #fff;
+}
+.ajax-loading .loading img {
+  width: 32px;
+  vertical-align: middle;
+}
+.ajax-loading .loading span {
+  margin-left: 12px;
+}
+.ajax-loading .overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9998;
+  background: #ffffff;
+  opacity: 0.1;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+img {
+  width: 100%;
+}
+*,
+.ant-modal-body,
+.ant-modal {
+  font-family: 'Microsoft YaHei';
+}
+.App {
+  height: 100%;
+}
+.ant-pagination.PaginationRight {
+  float: right;
+  margin: 16px auto;
+}
+.tableIndex {
+  margin: 0 auto;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+.ant-table-bordered .ant-table-thead > tr > th,
+.ant-table-bordered .ant-table-tbody > tr > td {
+  border-right: none!important;
+}
+.ant-table-tbody > tr {
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0px 2px 5px 0px rgba(195, 205, 243, 0.15);
+}
+.ant-table-tbody > tr > td {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: #333333;
+}
+.ant-table-column-title {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: #333333;
+}
+.tableoption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tableoption span {
+  cursor: pointer;
+}
+.borderLook {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  color: #cccccc;
+}
+.borderEdit {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #e4eaff;
+  border-radius: 5px;
+  color: #3661FF;
+  text-align: center;
+}
+.borderDelete {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 5px;
+  border: 1px solid #ff606d;
+  color: #FF606D;
+  text-align: center;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 16px;
+  background-color: #F5F5F5;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.3);
+  background-color: #c1c1c1;
+}
+.ant-breadcrumb {
+  font-size: 1rem!important;
+}
+.crumbs-item {
+  color: #3661FF;
+}
+.picImg {
+  width: 105px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,237 @@
+.ant-notification {
+  top: 72%!important;
+}
+.ant-notification .ant-notification-notice {
+  padding: 16px 20px!important;
+}
+.ant-notification .ant-notification-notice .newAlarm {
+  display: flex;
+  flex-direction: column;
+}
+.ant-notification .ant-notification-notice .newAlarm .newImg {
+  width: 100%;
+  height: 43vh;
+}
+.ant-notification .ant-notification-notice .newAlarm .newContext {
+  padding: 2% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ant-badge {
+  font-size: 28px;
+}
+.ant-badge-multiple-words {
+  padding: 0 4px;
+}
+.popoverMoal .popoverMoal-con {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popoverMoal .popoverMoal-con span {
+  display: inline-block;
+  width: 32%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.policeList-top {
+  width: 352px;
+  height: 410px;
+}
+.policeList-top .police-name {
+  width: 100%;
+  color: #666666;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ECECEC;
+}
+.policeList-top .policeCont {
+  width: 100%;
+  height: 338px;
+  overflow-y: scroll;
+}
+.policeList-top .policeCont .popoverEmpty {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.policeList-top .policeCont .popoverEmpty .ant-empty {
+  margin: 0 auto!important;
+}
+.policeList-top .policeCont li {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #ececec;
+}
+.policeList-top .policeCont li .popover-img {
+  width: 80px;
+  height: 45px;
+}
+.policeList-top .policeCont li .popover-img img {
+  width: 100%;
+  height: 100%;
+}
+.policeList-top .policeCont li .popover-content {
+  width: 250px;
+  height: 75%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #CCCCCC;
+}
+.policeList-top .policeCont li .popover-content .context-name {
+  color: #333333;
+}
+.policeList-top .policeCont li .popover-content .context {
+  color: #8590A6;
+}
+.policeList-top .policeCont li .popover-content .nopass {
+  color: #CCCCCC;
+}
+.policeList-top .policeCont li .popover-content p:nth-child(1) {
+  display: flex;
+  align-content: center;
+  font-size: 14px;
+  width: 250px;
+}
+.policeList-top .policeCont li .popover-content p:nth-child(1) .context-num:nth-child(2) {
+  padding-left: 4%;
+}
+.policeList-top .policeCont li .popover-content p:nth-child(1) .context-num {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.policeList-top .policeCont li .popover-content p:nth-child(2) {
+  font-size: 14px;
+}
+.policeList-top .popover-bottom {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #ECECEC;
+  margin-top: 10px;
+  color: #666666;
+  font-size: 14px;
+}
+.policeList-top .popover-bottom span {
+  cursor: pointer;
+}
+.policeList-top .popover-bottom span:hover {
+  color: #76839b;
+}
+.backout {
+  padding: 0 8px;
+}
+.backout p {
+  padding: 8px 0;
+  cursor: pointer;
+}
+.backout p:hover {
+  color: #0b5eec;
+}
+.LayerHeader {
+  font-family: 'Microsoft YaHei';
+  background: #ffffff;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  color: #3661FF;
+  justify-content: space-between;
+  padding: 0 1%;
+}
+.LayerHeader .ant-select-selection {
+  background: #213C95;
+  border: none;
+  color: #fff;
+}
+.LayerHeader .ant-select-arrow {
+  color: #fff;
+}
+.LayerHeader .headerLeft {
+  display: flex;
+  align-items: center;
+}
+.LayerHeader .headerLeft .logo {
+  width: 155px;
+  height: 44px;
+  background: url("../../../style/imgs/logoCricle.png");
+  background-size: 100% 100%;
+}
+.LayerHeader .headerLeft .secant {
+  width: 2px;
+  height: 32px;
+  background: #132356;
+  margin: 0 22px 0 11px;
+}
+.LayerHeader .headerLeft .logo-title {
+  font-size: 27px;
+  letter-spacing: 2px;
+}
+.LayerHeader .headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.LayerHeader .headerRight .manual {
+  font-size: 26px;
+  position: absolute;
+  right: 175%;
+  top: 30%;
+  cursor: pointer;
+  color: #707D93;
+}
+.LayerHeader .headerRight .alarmNum {
+  position: absolute;
+  right: 135%;
+  top: 30%;
+}
+.LayerHeader .headerRight .alarmNum .alarmfont {
+  color: #f5222d;
+}
+.LayerHeader .headerRight .alarmNum .alarMargin {
+  margin-right: 20px;
+}
+.LayerHeader .headerRight .alarmNum .equImg6 {
+  display: inline-block;
+  width: 27px;
+  height: 30px;
+  background: url("../../../style/ztt/imgs/ring.png") no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.LayerHeader .headerRight .alarmNum .equImg7 {
+  display: inline-block;
+  width: 27px;
+  height: 30px;
+  background: url("../../../style/ztt/imgs/mute.png") no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.LayerHeader .headerRight .alarmRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.LayerHeader .headerRight .alarmRight .signout {
+  padding-left: 20px;
+  cursor: pointer;
+  color: #000000;
+}
+.LayerHeader .headerRight .alarmRight .userIcon {
+  margin-right: 13px;
+}
+.LayerHeader .headerRight .alarmRight .userName {
+  color: #333333;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,42 @@
+.facePatrol .facePatrolTitle {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  padding: 0 1%;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.facePatrol .faceRealname {
+  cursor: pointer;
+}
+.facePatrol .faceRealname:hover {
+  color: #8a8a8a;
+}
+.facePatrol .noduty {
+  color: #FF606D;
+}
+.facePatrol .passFont {
+  color: #55b383;
+}
+.facePatrol .facePatrolBtn {
+  font-size: 20px;
+}
+.facePatrol .facePatrolBtn span {
+  margin: 0 2%;
+}
+.model-item {
+  margin: 15px 30px;
+  color: #000000;
+}
+.model-item .modelCircle {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #333333;
+  margin-right: 6px;
+}
+/*# sourceMappingURL=facePatrol.css.map */

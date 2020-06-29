@@ -1,0 +1,268 @@
+.zongtp(@wzt: 76%, @ml: 20px) {
+  width: @wzt;
+  margin-left: @ml;
+}
+@media only screen and(max-width: 1300px) {
+  .Login {
+    .imgfa{
+      top:20%;
+    }
+    .logoBor {
+      .logoBg {
+        .login_pro {
+          .loginFrame {
+            width: 395px;
+            height: 404px;
+            position: relative;
+            right: 10%;
+            padding: 83px 60px 120px;
+          }
+          .ant-form-item {
+            margin-bottom: 20px;
+          }
+
+          .logoForm {
+            padding-top: 12px;
+
+            input {
+              font-size: 18px;
+              height: 40px;
+            }
+            input:-webkit-autofill{
+              -webkit-text-fill-color: #ededed !important;
+              background-color: transparent;
+              background-image: none;
+              transition: background-color 50000s ease-in-out 0s;
+            }
+            .logoBtn {
+              margin-top: 12px;
+              font-size: 18px !important;
+              letter-spacing: 10px;
+              height: 45px!important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .uselogtitle {
+    color: white;
+    font-weight:bold;
+    letter-spacing: 5px;
+    font-size: 22px !important;
+    margin-bottom: 15px !important;
+  }
+}
+
+@media only screen and(max-width: 1200px) {
+  .Login {
+    .logoBor {
+      .logoBg {
+        .login_pro {
+          .loginFrame {
+            width: 530px;
+            height: 510px;
+            position: relative;
+            margin-top: 30px;
+            padding: 83px 60px 120px;
+            .zongtp(90%, 0);
+          }
+        }
+      }
+    }
+  }
+}
+
+// display:none;
+@media only screen and(max-width: 800px) {
+  .Login {
+    .logoBor {
+      .logoBg {
+        .tranfpro {
+          display: none !important;
+        }
+        .login_pro {
+          width: 90%;
+          .loginFrame {
+            width: 530px;
+            height: 510px;
+            position: relative;
+            margin-top: 30px;
+            padding: 83px 60px 120px;
+            .zongtp(100%, 0);
+          }
+        }
+      }
+    }
+  }
+}
+
+.Login {
+
+  font-family: 'Microsoft YaHei';
+
+  .login_title {
+    width: 10%;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+
+    img {
+      width: 100%;
+      min-width: 150px;
+    }
+  }
+
+  .logoBor {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    .logoBg {
+      width: 100%;
+      height: 100%;
+      background: url("../../style/imgs/loginbg.png") center no-repeat;
+      background-size: 100% 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .tranfpro {
+        position: relative;
+        width: 60%;
+        height: 100%;
+        display: block;
+        .imgfa{
+          width: 76%;
+          position: absolute;
+          left: 52px;
+          bottom: 0px;
+          .loginball{
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .login_pro {
+      .bianjiao(@kgpx: 50px, @borwh: 6px) {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: @kgpx;
+        height: @kgpx;
+        border-width: @borwh;
+        border-style: solid;
+      }
+
+      @poslrtb: -3px;
+      width: 40%;
+      height: auto;
+
+      .loginFrame {
+        width: 530px;
+        height: 510px;
+        position: relative;
+        margin-top: 30px;
+        padding: 83px 60px 120px;
+        .zongtp;
+        input {
+          background-color: #024F92;
+          border: 1px solid #0173BF;
+          font-size: 20px;
+          height: 50px;
+          padding: 6px 40px;
+          color: #d6e9fc;
+          &::placeholder {
+            color: #c7d8eb;
+          }
+        }
+
+        //输入框图标
+        .icon() {
+          font-size: 20px;
+          line-height: 50px;
+          margin: 5px 5px 0 0;
+        }
+
+        .anticon {
+          color: rgb(255, 255, 255);
+          .icon
+        }
+
+        .ant-form-item {
+          margin-bottom: 30px;
+        }
+
+        .logoForm {
+          padding-top: 15px;
+          input:-webkit-autofill{
+            -webkit-text-fill-color: #ededed !important;
+            background-image: none;
+            transition: background-color 50000s ease-in-out 0s;
+          }
+          .logoBtn {
+            width: 100%;
+            height: 50px;
+            background: #1C7CFF;
+            border: none;
+            border-radius: 1px;
+            margin-top: 13px;
+            font-size: 25px;
+            letter-spacing: 10px;
+          }
+        }
+      }
+
+      p {
+        color: #d6e9fc;
+        text-align: center;
+      }
+
+     
+
+      .uselogtitle {
+        color: white;
+        font-weight:bold;
+        letter-spacing: 5px;
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+
+    }
+
+
+  }
+
+
+}
+
+.spanlit {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 4px;
+  background-color: #1987cd;
+}
+
+
+
+//左
+@shadw: 10px;
+@shadbw: @shadw/2;
+@shadbfff: 0 #1987cd;
+//右
+@shadrwd: 10px;
+@ddfr: -10px;
+@ddfrbb: @ddfr/2;
+
+.dotting {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: @shadrwd;
+  height: @shadrwd;
+  animation: doc 5s infinite step-start both;
+}
+

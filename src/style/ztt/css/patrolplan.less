@@ -1,0 +1,107 @@
+.patrolPlan{
+  .gutter-example{
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 5px 0px rgba(195,205,243,0.15);
+    border-radius:5px;
+    padding: 30px;
+    .plan-card{
+      border-radius: 4px;
+    }
+    .planTips{
+      margin: 0 26px;
+      padding: 20px 0;
+      color: #333333;
+      font-size: 14px;
+    }
+    .plan-context{
+      display: flex;
+      align-items: center;
+      height: 126px;
+      margin: 0 26px;
+      background:rgba(250,250,251,1);
+      border: 1px solid #ececf9;
+      border-radius:8px;
+      .plan-circle{
+        padding-left:18px;
+        .bg1 {
+          background: #37C1D0;
+        }
+        .bg2 {
+          background: #FF606D;
+        }
+        .bg3 {
+          background: #F7C35D;
+        }
+        .bg4 {
+          background: #99BB33;
+        }
+        .bg5 {
+          background: #93ABFA;
+        }
+        .bg6 {
+          background: #FDD000;
+        }
+        .plan-title{
+          display: inline-block;
+          width: 88px;
+          height: 88px;
+          line-height: 88px;
+          border-radius: 10px;
+          color: #fff;
+          text-align: center;
+          font-size: 28px;
+        }
+
+      }
+      .plan-time{
+        width: 68%;
+        height: 88px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .plan-icon{
+          color: #828DA6;
+          .planIcon{
+            padding-left: 8px;
+          }
+        }
+        .plan-icon:nth-child(1){
+          cursor: pointer;
+          svg{
+            color: #3661FF;
+          }
+        }
+        .plan-icon:nth-child(2){
+          padding-left: 20px;
+          cursor: pointer;
+          svg{
+            color: #FF606D;
+          }
+        }
+        .planTime-nike:nth-child(1){
+          font-weight:bold;
+          color:rgba(51,51,51,1);
+        }
+        .planTime-nike:nth-child(2){
+          color:#828DA6;
+        }
+        .planTime-nike{
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .card-planBtn{
+    text-align: right;
+    margin: 15px 0;
+    .planBtnAdd{
+      color: #3661FF;
+      border: 1px solid #3661FF;
+      margin-right: 40px;
+    }
+  }
+  .ant-card-head-title{color: red;}
+}

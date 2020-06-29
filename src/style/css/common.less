@@ -1,0 +1,106 @@
+@import './loading.less';
+@import './reset.less';
+@height:100%;
+*,.ant-modal-body,.ant-modal{
+  font-family:'Microsoft YaHei';
+}
+.App{
+	height: @height;
+}
+.ant-pagination.PaginationRight{ //页面在右边显示
+  float: right;
+  margin:16px auto;
+}
+.tableIndex{
+  margin: 0 auto;
+  width:26px;
+  height: 26px;
+  line-height: 26px;
+  border-radius:5px;
+  border:1px solid rgba(204,204,204,1);
+}
+.ant-table-bordered .ant-table-thead > tr > th, .ant-table-bordered .ant-table-tbody > tr > td{
+  border-right: none!important;
+}
+.ant-table-tbody > tr{
+  height: 60px;
+  background:rgba(255,255,255,1);
+  box-shadow:0px 2px 5px 0px rgba(195,205,243,0.15);
+}
+.ant-table-tbody > tr >td{
+  font-size:16px;
+  font-family:MicrosoftYaHei;
+  color:rgba(51,51,51,1);
+}
+.ant-table-column-title{
+  font-size:16px;
+  font-family:MicrosoftYaHei;
+  color:rgba(51,51,51,1);
+}
+.tableoption{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  span{
+    cursor: pointer;
+  }
+}
+.borderLook{
+  display: inline-block;
+  width:34px;
+  height:34px;
+  border-radius:5px;
+  border:1px solid rgba(204,204,204,1);
+  color:rgba(204,204,204,1);
+}
+.borderEdit{
+  display: inline-block;
+  width:34px;
+  height:34px;
+  background:rgba(228,234,255,1);
+  border-radius:5px;
+  color: #3661FF;
+  text-align: center;
+}
+.borderDelete{
+  display: inline-block;
+  width:34px;
+  height: 34px;
+  border-radius:5px;
+  border:1px solid rgba(255,96,109,1);
+  color: #FF606D;
+  text-align: center;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar{
+  width: 8px;
+  height: 16px;
+  background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 4px rgba(255,255,255,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 4px rgba(255,255,255,0.3);
+  background-color: #c1c1c1;
+}
+.ant-breadcrumb{
+  font-size: 1rem!important;
+}
+.crumbs-item{
+  color: #3661FF;
+}
+.picImg{
+  width: 105px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+

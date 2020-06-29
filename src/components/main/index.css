@@ -1,0 +1,135 @@
+.main {
+  display: flex;
+}
+.main .ant-menu-submenu-title .nav-text {
+  color: #BFD8FF;
+}
+.main .leftWrap {
+  background: linear-gradient(90deg, #2b52ea 0%, #1c3dc4 100%);
+  min-height: 100vh;
+}
+.main .leftWrap .logoWrap {
+  height: 60px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main .leftWrap .logoWrap .logobg {
+  width: 110px;
+  height: 15px;
+  background: url("../../../src/style/ztt/imgs/dashboard/titleIcon.png") no-repeat;
+  background-size: 100% 100%;
+}
+.main .leftWrap .menuList {
+  height: 21px;
+  font-size: 16px;
+  color: #bfd8ff;
+  padding-left: 24px;
+  padding-top: 6%;
+}
+.main .leftWrap .ant-menu {
+  background: linear-gradient(90deg, #2b52ea 0%, #1c3dc4 100%);
+}
+.main .leftWrap .ant-menu-item a {
+  color: #BFD8FF;
+  font-family: MicrosoftYaHei;
+}
+.main .leftWrap .ant-menu-inline-collapsed {
+  color: #93A4E4;
+}
+.main .leftWrap .ant-menu-inline .ant-menu-item,
+.main .leftWrap .ant-menu-inline .ant-menu-submenu-title {
+  width: 240px;
+}
+.main .leftWrap .ant-menu-inline,
+.main .leftWrap .ant-menu-vertical,
+.main .leftWrap .ant-menu-vertical-left {
+  border-right: none;
+}
+.main .leftWrap .ant-menu-inline {
+  border-right: none;
+  color: #93A4E4;
+  width: 240px;
+}
+.main .leftWrap .ant-menu-inline .ant-menu-item,
+.main .leftWrap .ant-menu-inline .ant-menu-submenu-title {
+  font-size: 16px;
+}
+.main .leftWrap .ant-menu-submenu-selected {
+  color: #fff;
+}
+.main .leftWrap .ant-menu-inline .ant-menu-item,
+.main .leftWrap .ant-menu-inline .ant-menu-submenu-title {
+  width: 100%;
+}
+.main .leftWrap .ant-menu-item:hover,
+.main .leftWrap .ant-menu-submenu-title:hover {
+  color: #fff;
+}
+.main .leftWrap .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #173CC1;
+  color: #fff;
+}
+.main .leftWrap .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected a {
+  color: #fff;
+}
+.main .leftWrap .ant-menu-inline .ant-menu-item::after {
+  left: 0;
+  border-left: none;
+  border-right: none;
+}
+.main .leftWrap .ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.main .leftWrap .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.main .leftWrap .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.main .leftWrap .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.main .leftWrap .ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+.main .leftWrap .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+.main .leftWrap .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+.main .leftWrap .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before {
+  background: -webkit-gradient(linear, left top, right top, from(#FFF), to(#FFF));
+  background: linear-gradient(to right, #FFF, #FFF);
+}
+.main .leftWrap .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow::before,
+.main .leftWrap .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow::before,
+.main .leftWrap .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow::before,
+.main .leftWrap .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::before,
+.main .leftWrap .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow::after,
+.main .leftWrap .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow::after,
+.main .leftWrap .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow::after,
+.main .leftWrap .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::after {
+  background-image: -webkit-gradient(linear, left top, right top, from(#93A4E4), to(#93A4E4));
+  background-image: linear-gradient(to right, #93A4E4, #93A4E4);
+}
+.main .leftWrap .ant-menu-inline-collapsed > .ant-menu-item .anticon,
+.main .leftWrap .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item .anticon,
+.main .leftWrap .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title .anticon,
+.main .leftWrap .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon {
+  font-size: 22px;
+}
+.main .logo {
+  height: 64px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main .logo .titleIcon {
+  width: 125px;
+  height: 15px;
+  background: url("../../../src/style/ztt/imgs/dashboard/titleIcon.png") no-repeat;
+  background-size: 100% 100%;
+}
+.main .contentAll {
+  padding: 1.2% 1%;
+  height: calc(100vh - 65px);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.ant-layout {
+  width: 100px;
+}
+/*# sourceMappingURL=index.css.map */

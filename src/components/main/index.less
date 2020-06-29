@@ -1,0 +1,111 @@
+.main{
+  display: flex;
+  .ant-menu-submenu-title .nav-text{
+    color:#BFD8FF ;
+  }
+  .leftWrap{
+    background:linear-gradient(90deg,rgba(43,82,234,1) 0%,rgba(28,61,196,1) 100%);
+    min-height: 100vh;
+    .logoWrap{
+      height: 60px;
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      line-height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .logobg{
+        width: 110px;
+        height: 15px;
+        background: url("../../../src/style/ztt/imgs/dashboard/titleIcon.png") no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+    .menuList{
+      height:21px;
+      font-size:16px;
+      color:rgba(191,216,255,1);
+      padding-left: 24px;
+      padding-top: 6%;
+    }
+    .ant-menu{
+      background:linear-gradient(90deg,rgba(43,82,234,1) 0%,rgba(28,61,196,1) 100%);
+    }
+    .ant-menu-item a{
+      color: #BFD8FF;
+      font-family:MicrosoftYaHei;
+    }
+    .ant-menu-inline-collapsed{
+      color:#93A4E4;
+    }
+    .ant-menu-inline .ant-menu-item,.ant-menu-inline .ant-menu-submenu-title{
+      width: 240px;
+    }
+    .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+      border-right: none;
+    }
+    .ant-menu-inline {
+      border-right: none;
+      color:#93A4E4;
+      width: 240px;
+    }
+    .ant-menu-inline .ant-menu-item,.ant-menu-inline .ant-menu-submenu-title{
+      font-size: 16px;
+    }
+    .ant-menu-submenu-selected{
+      color: #fff;
+    }
+    .ant-menu-inline .ant-menu-item, .ant-menu-inline .ant-menu-submenu-title {
+      width: 100%;
+    }
+    .ant-menu-item:hover,.ant-menu-submenu-title:hover{
+      color: #fff;
+    }
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+      background-color:#173CC1;
+      color: #fff;
+    }
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected a{
+      color: #fff;
+    }
+    .ant-menu-inline .ant-menu-item::after{
+      left: 0;
+      border-left: none;
+      border-right: none;
+    }
+    .ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before {
+      background: -webkit-gradient(linear, left top, right top, from(#FFF), to(#FFF));
+      background: linear-gradient(to right, #FFF, #FFF);
+    }
+    .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow::before, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow::before, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow::before, .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::before, .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow::after, .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::after{
+      background-image: -webkit-gradient(linear, left top, right top, from(#93A4E4), to(#93A4E4));
+      background-image: linear-gradient(to right, #93A4E4, #93A4E4);
+    }
+    .ant-menu-inline-collapsed > .ant-menu-item .anticon, .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item .anticon, .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title .anticon, .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon{
+      font-size: 22px;
+    }
+  }
+  .logo{
+    height: 64px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .titleIcon{
+      width: 125px;
+      height: 15px;
+      background: url("../../../src/style/ztt/imgs/dashboard/titleIcon.png") no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  .contentAll{
+    padding: 1.2%  1%;
+    height: calc(100vh - 65px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
+.ant-layout{
+  width: 100px;
+}

@@ -1,0 +1,50 @@
+.schedulingIndex .unduty {
+  color: #ff606d;
+}
+.schedulingIndex .faceBtn {
+  font-size: 16px;
+}
+.schedulingIndex .faceBtn .detail {
+  color: #3661FF;
+  text-decoration: underline;
+}
+.schedulingIndex .faceBtn span {
+  margin: 0 2%;
+}
+.schedulingIndex .faceBtn span .borderLook {
+  color: #3661FF;
+}
+.schedulingIndex .faceBtn span:hover {
+  cursor: pointer;
+}
+.schedulingIndex .schedTop {
+  margin: 25px 0;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1%;
+  border-radius: 5px;
+}
+.schedulingIndex .schedTop .addGroup:nth-child(1) {
+  border: 1px solid #3661FF;
+  color: #3661FF;
+  margin-right: 20px;
+}
+.schedulingIndex .schedTop .operationBtn {
+  margin: 0 5px;
+}
+.model-item {
+  margin: 15px 30px;
+  color: #000000;
+}
+.model-item .modelCircle {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #333333;
+  margin-right: 6px;
+}
+/*# sourceMappingURL=scheduling.css.map */

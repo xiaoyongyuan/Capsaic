@@ -1,0 +1,336 @@
+.ant-modal-content{
+  .delFiled{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+  }
+  .ant-form-item-control-wrapper{
+    .ant-checkbox-group-item {
+      margin-left: 0;
+      padding: 10px 0px;
+      font-size: 16px;
+      font-family: MicrosoftYaHei;
+      color: rgb(175, 173, 173);
+    }
+  }
+  .ant-modal-footer{
+    .ant-btn:nth-child(1){
+      border-radius:5px;
+      border:1px solid rgba(204,204,204,1);
+      font-family:MicrosoftYaHei;
+      color:rgba(204,204,204,1);
+    }
+    .ant-btn:nth-child(2){
+      border-radius:5px;
+      background:rgba(54,97,255,1);
+      font-family:MicrosoftYaHei;
+      color:rgba(255,255,255,1);
+    }
+  }
+}
+.operTimes{
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  font-size:16px;
+  font-family:MicrosoftYaHei;
+  color:rgba(51,51,51,1);
+  .ant-checkbox-wrapper{
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+  }
+}
+.defendTime {
+  box-sizing: border-box;
+  padding: 40px 40px;
+  background-color: #fff;
+  .selected {
+    background: "#FF606D";
+  }
+  .defaendOPerBtn{
+    width: 50%;
+    text-align: right;
+    #deleteData{
+      margin-right: 68px;
+      background:rgba(255,96,109,1);
+      border-radius:5px;
+    }
+    #submitData{
+      background:rgba(54,97,255,1);
+      border-radius:5px;
+    }
+  }
+  #tab {
+    position: relative;
+    margin-left:120px;
+  }
+  .tr:first-of-type::before {
+    content: '星期一';
+    position: absolute;
+    top: 50px;
+    left: -90px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+  }
+
+  .tr:nth-of-type(2)::before {
+    content: '星期二';
+    position: absolute;
+    top: 120px;
+    left: -90px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+  }
+
+  .tr:nth-of-type(3)::before {
+    content: '星期三';
+    position: absolute;
+    top: 192px;
+    left: -90px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+  }
+
+  .tr:nth-of-type(4)::before {
+    content: '星期四';
+    position: absolute;
+    top: 264px;
+    left: -90px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+  }
+
+  .tr:nth-of-type(5)::before {
+    content: '星期五';
+    position: absolute;
+    top: 334px;
+    left: -90px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+  }
+
+  .tr:nth-of-type(6)::before {
+    content: '星期六';
+    position: absolute;
+    top: 406px;
+    left: -90px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+  }
+
+  .tr:last-of-type::before {
+    content: '星期日';
+    position: absolute;
+    top: 476px;
+    left: -90px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+  }
+
+
+  .tr :first-of-type {
+    .td::before {
+      content: '1';
+      position: absolute;
+      left: 0;
+      top: -10
+    }
+  }
+
+  .td {
+    position: relative;
+    width: 20px;
+    height: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    // border-right: 1px solid #000;
+    border-top: 1px solid #FF606D;
+    border-bottom: 1px solid #FF606D;
+  }
+
+  .td:first-of-type {
+    border-left: 1px solid #FF606D;
+
+  }
+
+  .td:nth-of-type(48) {
+    border-right: 1px solid #FF606D;
+
+  }
+
+  .td:nth-of-type(49) {
+    border-top: none;
+    border-bottom: none;
+  }
+
+
+  .td:nth-of-type(odd)::before {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #FF606D;
+    height: 10px;
+    position: absolute;
+    top: -10px;
+    left: -1px;
+  }
+
+  .td:nth-of-type(1)::after {
+    content: "0";
+    position: absolute;
+    top: -28px;
+    left: -5px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(5)::after {
+    content: "2";
+    position: absolute;
+    top: -28px;
+    left: -5px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(9)::after {
+    content: "4";
+    position: absolute;
+    top: -28px;
+    left: -5px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(13)::after {
+    content: "6";
+    position: absolute;
+    top: -28px;
+    left: -5px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(17)::after {
+    content: "8";
+    position: absolute;
+    top: -28px;
+    left: -5px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(21)::after {
+    content: "10";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(25)::after {
+    content: "12";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959
+  }
+
+  .td:nth-of-type(29)::after {
+    content: "14";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(33)::after {
+    content: "16";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(37)::after {
+    content: "18";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(41)::after {
+    content: "20";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(45)::after {
+    content: "22";
+    position: absolute;
+    top: -28px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(49)::after {
+    content: "24";
+    position: absolute;
+    top: -26px;
+    left: -10px;
+    color: #595959;
+  }
+
+  .td:nth-of-type(49)::before {
+    content: none;
+  }
+
+
+  .td:nth-of-type(even)::before {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #FF606D;
+    position: absolute;
+    height: 6px;
+    top: -6px;
+    left: -1px;
+  }
+
+  .td:nth-of-type(48)::after {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #FF606D;
+    position: absolute;
+    height: 10px;
+    top: -10px;
+    left: 12px;
+  }
+
+  .deleteWrap {
+    margin-top: 2px;
+    .delete {
+      margin:41px 0;
+      display: block;
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+      color: #CCCCCC;
+    }
+  }
+
+}

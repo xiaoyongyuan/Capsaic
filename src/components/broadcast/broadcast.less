@@ -1,0 +1,105 @@
+.broadcast{
+  margin: 0 15px;
+  .ant-form-item-label > label{
+    color:#9fa8d0;
+  }
+  .ant-select{
+    color:#9fa8d0;
+  }
+  .ant-select-selection{
+    background-color: #213C95;
+    border: none;
+  }
+  .ant-select-arrow{
+    color: #2CE6F9;
+  }
+  .title-broad{
+    display: flex;
+    align-items: center;
+    color: #00ffff;
+    background: #142253;
+    padding: 14px 6px;
+    .sureBtn{
+      border-radius: 1px;
+      color: #000;
+    }
+    .resetBtn{
+      border-radius: 1px;
+      color: #fff;
+      background-color: #213C95;
+      border: none;
+      margin-left: 16px;
+    }
+    .stopBtn{
+      border-radius: 1px;
+      color: #fff;
+      background-color: #213C95;
+      border: none;
+      margin-left: 16px;
+    }
+  }
+  .broContext{
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow:0px 2px 5px 0px rgba(195,205,243,0.15);
+    border-radius:5px;
+    .nodata{
+      width: 100%;
+      text-align: center;
+    }
+    .nodata img{
+      width: 70px;
+     height: 70px;
+    }
+  }
+  .borderBot .videoImg{
+    height: 17vh;
+    border-radius:10px;
+  }
+  .borderBot{
+    position: relative;
+    width: 100%;
+    height: 17vh;
+    margin: 10px 0;
+    .videoBtn{
+      width: 16%;
+      position: absolute;
+      top:36%;
+      left: 40%;
+      cursor: pointer;
+    }
+    .broadcastBott{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height:32px;
+      background:rgba(0,0,0,0.6);
+      border-radius:0px 0px 10px 10px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      .broCircle{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #5BE07F;
+      }
+      .broFont{
+        color: #fff;
+        padding-left: 8px;
+      }
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    .borderBot{
+      height: 28vh;
+    }
+    .borderBot .videoImg{
+      height: 28vh;
+    }
+  }
+}
